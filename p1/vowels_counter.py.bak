@@ -8,12 +8,11 @@ def main():
 	s = input()
 	# the input string is in s
 	# remove pass and start your code here
-	num=0
-	for char in s :
-		if char in "aeiou":
-			num=num+1
-	print(num)
-    
+	num_vowels=0
+    for char in s:
+		if char in "aeiouAEIOU" :
+			num_vowels = num_vowels+1
+
 
 
 if __name__== "__main__":
